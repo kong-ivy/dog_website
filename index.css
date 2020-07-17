@@ -1,0 +1,221 @@
+    ul,
+    li {
+    list-style: none;
+    margin: 0;
+    }
+    .fl {
+    float: left;
+    }
+    .fr {
+    float: right;
+    }
+    .top-nav {
+    background: rgb(231, 229, 229);
+    height: 26px;
+    }
+    .nav-left {
+    float: left;
+    }
+    .nav-right {
+    float: right;
+    }
+    .nav-right ul li {
+    height: 26px;
+    float: left;
+    }
+    .nav-right ul li a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    }
+    /* logo */
+    .logo {
+    width: 970px;
+    height: 84px;
+    margin: 0 auto;
+    }
+    .logo-pic {
+    width: 200px;
+    height: 84px;
+    }
+    .logo-pic img {
+    width: 200px;
+    height: 84px;
+    }
+    .search {
+    position: relative;
+    width: 519px;
+    height: 30px;
+    border: 1px solid #c9c9c9;
+    background: #f9f9f9;
+    margin-top: 20px;
+    padding: 5px 5px 5px 5px;
+    }
+    .search input[type="text"] {
+    width: 419px;
+    height: 28px;
+    border: 1px solid #a6a6a6;
+    border-right: 0 none;
+    vertical-align: middle;
+    font-size: 1em;
+    }
+    .search button {
+    width: 90px;
+    height: 30px;
+    vertical-align: middle;
+    font-size: 1.2em;
+    background: rgb(50, 140, 170);
+    font-weight: bold;
+    }
+    .nav {
+    width: 970px;
+    height: 25px;
+    margin: 10px auto;
+    border-bottom: 2px solid #0266a3;
+    }
+    .nav li {
+    float: left;
+    }
+    .nav ul {
+    padding: 0;
+    }
+    .nav li a {
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+    color: #0266a3;
+    text-decoration: none;
+    }
+    .nav li a:hover {
+    color: pink;
+    }
+
+    /* market */
+    .market {
+    width: 970px;
+    height: 210;
+    margin: 0 auto;
+    }
+    .mar-left {
+    width: 200px;
+    height: 210px;
+    background: #ebf0f6;
+    }
+    .mar-title {
+    height: 30px;
+    background: #0266a3;
+    line-height: 30px;
+    color: #fff;
+    padding-left: 20px;
+    }
+    .mar-list {
+    margin-top: 5px;
+    }
+    .mar-list li {
+    height: 28px;
+    line-height: 28px;
+    }
+
+    .mar-right img {
+    height: 210px;
+    width: 750px;
+    }
+    .dog-type {
+    float: left;
+    width: 68%;
+    height: 26px;
+    background: rgb(224, 245, 252);
+    margin: 5px 230px;
+    }
+
+    /*狗狗种类列表*/
+    .pro {
+    width: 970px;
+    height: 200px;
+    margin: 0 auto;
+    }
+    .pro-l {
+    width: 730px;
+    height: 400px;
+    display: inline-block;
+    }
+    .pro-left {
+    width: 730px;
+    height: 200px;
+    border: 1px solid #d8d8d8;
+    display: inline-block;
+    }
+    .pro-right {
+    width: 228px;
+    height: 344px;
+    border: 1px solid #d8d8d8;
+    }
+    .pro-title {
+    height: 28px;
+    line-height: 28px;
+    padding-left: 15px;
+    background: #fbfbfb;
+    border-bottom: 1px solid #e0e6f0;
+    }
+    .pro-right ul {
+    margin-top: 17px;
+    }
+    .pro-right ul li {
+    height: 24px;
+    }
+
+    .pro-left-l,
+    .pro-left-r {
+    width: 180px;
+    display: inline-block;
+    }
+    .pro-right ul li a:hover {
+    color: pink;
+    text-decoration: underline;
+    }
+    .pro-left-l img,
+    .pro-left-r img {
+    width: 150px;
+    height: 100px;
+    margin: 10px 10px 10px 10px;
+    }
+    .pro-pic-btn button {
+    width: 150px;
+    height: 26px;
+    margin-top: 15px;
+    margin-left: 10px;
+    }
+    .pro-pic-lr {
+    display: inline-block;
+    }
+    .pro-pic-lr p {
+    margin-left: 10px;
+    font-size: 13px;
+    }
+    .pro-pic-lr p span {
+    color: #ff0000;
+    font-weight: 700;
+    }
+    .pro-pic-lr p del {
+    font-size: 10px;
+    }
+    .pro-pic-lr p.text1 {
+    height: 20px;
+    }
+    .pro-pic-lr p.text2 {
+    height: 30px;
+    }
+    .pro-pic-lr p.text3 {
+    height: 20px;
+    }
+    .copyright {
+    height: 91px;
+    text-align: center;
+    position: relative;
+    margin: 450px 0 0 600px;
+    }
+    .copyright p.copy {
+    height: 24px;
+    margin-top: 13px;
+    }
